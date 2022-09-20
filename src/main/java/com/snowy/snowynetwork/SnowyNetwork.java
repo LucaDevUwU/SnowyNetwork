@@ -6,7 +6,7 @@ public final class SnowyNetwork extends Plugin {
 
     @Override
     public void onEnable() {
-        // Plugin startup logic
+        System.out.println("My plugin has loaded!");
     }
 
     @Override
