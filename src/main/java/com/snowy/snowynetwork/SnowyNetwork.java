@@ -6,11 +6,6 @@ public final class SnowyNetwork extends Plugin {
 
     @Override
     public void onEnable() {
-        System.out.println("My plugin has loaded!");
-    }
-
-    @Override
-    public void onDisable() {
-        // Plugin shutdown logic
+        getProxy().getPluginManager().registerCommand(this, new FruitCommand());
     }
 }
